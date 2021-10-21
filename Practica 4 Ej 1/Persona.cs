@@ -30,4 +30,23 @@ namespace Practica_4_Ej_1
             set { sexo = value; }
         }
     }
+
+    class Empleado : Persona 
+    {
+        private string cargo;
+        private double salario;
+
+        public string Cargo
+        {
+            get { return cargo; }
+            set { cargo = value; }
+        }
+
+        public double Salario
+        {
+            get { return salario; }
+            set { salario = value; }
+        }
+    }
+
 }

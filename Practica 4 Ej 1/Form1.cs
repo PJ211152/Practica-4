@@ -16,5 +16,13 @@ namespace Practica_4_Ej_1
         {
             InitializeComponent();
         }
+
+        private void btn_Salir_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show(("¿Seguro que desea salir?"),"Aviso",MessageBoxButtons.YesNo,MessageBoxIcon.Question,MessageBoxDefaultButton.Button1)== DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

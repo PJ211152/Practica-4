@@ -1,6 +1,6 @@
 ﻿namespace Practica_4_Ej_1
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,37 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Salir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_Salir
             // 
-            this.btn_Salir.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_Salir.FlatAppearance.BorderSize = 0;
-            this.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Salir.Location = new System.Drawing.Point(590, 309);
-            this.btn_Salir.Name = "btn_Salir";
-            this.btn_Salir.Size = new System.Drawing.Size(75, 23);
-            this.btn_Salir.TabIndex = 0;
-            this.btn_Salir.Text = "SALIR";
-            this.btn_Salir.UseVisualStyleBackColor = false;
-            this.btn_Salir.Click += new System.EventHandler(this.btn_Salir_Click);
+            this.btn_Salir.Location = new System.Drawing.Point(575, 291);
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 358);
-            this.Controls.Add(this.btn_Salir);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(697, 344);
+            this.Name = "Form2";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        protected System.Windows.Forms.Button btn_Salir;
     }
 }
-
