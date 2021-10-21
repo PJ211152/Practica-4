@@ -38,7 +38,7 @@
             this.btn_Salir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn_Salir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Salir.Location = new System.Drawing.Point(267, 88);
+            this.btn_Salir.Location = new System.Drawing.Point(256, 81);
             this.btn_Salir.Size = new System.Drawing.Size(100, 100);
             // 
             // btn_Registrar
@@ -49,7 +49,7 @@
             this.btn_Registrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn_Registrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Registrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Registrar.Location = new System.Drawing.Point(101, 88);
+            this.btn_Registrar.Location = new System.Drawing.Point(90, 81);
             this.btn_Registrar.Name = "btn_Registrar";
             this.btn_Registrar.Size = new System.Drawing.Size(100, 100);
             this.btn_Registrar.TabIndex = 1;
@@ -63,8 +63,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(449, 273);
             this.Controls.Add(this.btn_Registrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Inicio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.Controls.SetChildIndex(this.btn_Salir, 0);
             this.Controls.SetChildIndex(this.btn_Registrar, 0);

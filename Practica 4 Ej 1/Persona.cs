@@ -49,4 +49,30 @@ namespace Practica_4_Ej_1
         }
     }
 
+    class Estudiante : Persona
+    {
+        private string numero_carnet;
+        private string nivel_estudios;
+
+        public string Numero_carnet
+        {
+            get { return numero_carnet; }
+            set { numero_carnet = value; }
+        }
+
+        public string Nivel_estudio
+        {
+            get { return nivel_estudios; }
+            set { nivel_estudios = value; }
+        }
+
+        public Estudio()
+        {
+            string nivel;
+
+            
+        }
+    }
+
+
 }

@@ -19,5 +19,10 @@ namespace Practica_4_Ej_1
         {
 
         }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }    
     }
 }
