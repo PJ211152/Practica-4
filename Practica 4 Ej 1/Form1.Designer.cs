@@ -51,6 +51,7 @@
             this.ClientSize = new System.Drawing.Size(691, 358);
             this.Controls.Add(this.btn_Salir);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 

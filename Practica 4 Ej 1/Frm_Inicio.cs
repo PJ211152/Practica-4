@@ -8,16 +8,19 @@ using System.Windows.Forms;
 
 namespace Practica_4_Ej_1
 {
-    public partial class Form2 : Practica_4_Ej_1.Form1
+    public partial class Frm_Inicio : Practica_4_Ej_1.Form1
     {
-        public Form2()
+        public Frm_Inicio()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void btn_Registrar_Click(object sender, EventArgs e)
         {
+            Form2 personas = new Form2();
 
+            this.Hide();
+            personas.Show();
         }
     }
 }
